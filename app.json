@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Cover Manager",
+    "slug": "cover-manager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.covermanager.app",
+      "permissions": ["android.permission.CAMERA"]
+    },
+    "ios": {
+      "bundleIdentifier": "com.covermanager.app"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Cover Manager to access camera to scan QR codes"
+        }
+      ]
+    ]
+  }
+}
